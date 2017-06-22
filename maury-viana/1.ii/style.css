@@ -1,0 +1,11 @@
+a:link {
+    font-size:150%;
+	text-decoration: none
+	}
+
+.exercise1ii:hover {
+   
+    text-decoration: underline red;
+    font-size:300%;
+}
+

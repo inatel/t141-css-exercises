@@ -1,0 +1,9 @@
+.highlight {
+color: #000;
+font-weight: bold /* negrito no texto */
+}
+
+.highlight:hover {
+color:lightblue;
+background-color: gray
+}

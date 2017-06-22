@@ -1,0 +1,28 @@
+
+ol {
+   list-style: none;
+   counter-reset: counter;
+   
+ }
+ li {
+    counter-increment: counter;
+    margin-bottom: 5px;
+    border: 1px  solid black;
+    width: 100px;
+    padding: 5px;
+    box-shadow: 1px 1px 5px gray;
+
+ }
+ li:before {
+   margin-right: 10px;
+   content: counter(counter);
+   background:darkgray;
+   border-radius: 100%;
+   color:black;
+   width: 1.2em;
+   text-align: center;
+   display: inline-block;
+   font-style: bold;
+  
+   
+ }
