@@ -1,0 +1,16 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.highlight{
+	color: red;
+}
+
+.highlight:hover{
+	background-color: black;
+	color: white;
+	font-size: 25pt;
+}
