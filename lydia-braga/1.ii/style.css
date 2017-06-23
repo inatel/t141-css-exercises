@@ -1,0 +1,8 @@
+/** Just to make the text bigger **/
+* {
+    font-size: 1.5em;
+}
+
+.underline:hover {
+    text-decoration: underline solid red;
+}
