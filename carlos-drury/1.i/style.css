@@ -1,0 +1,8 @@
+.highlight:hover{
+	background-color: yellow;
+	color: red;
+}
+
+.highlight {
+    font-style: italic;
+}
