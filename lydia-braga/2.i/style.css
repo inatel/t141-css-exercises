@@ -1,0 +1,29 @@
+ body {
+   counter-reset: listItem;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+
+ ol {
+   list-style: none;
+ }
+
+ li {
+   counter-increment: listItem;
+   margin-bottom: 5px;
+   padding: 3px;
+   border: 1px solid lightgray;
+   width: 100px;
+ }
+
+ li:before {
+   margin-right: 10px;
+   content: counter(listItem);
+   background: red;
+   border-radius: 100%;
+   color: white;
+   width: 1.2em;
+   text-align: center;
+   display: inline-block;
+   font-size: 0.7em;
+   font-weight: bold;
+ }
